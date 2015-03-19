@@ -7,7 +7,7 @@ function main(){
 	var aug = new Date(2017,07,01);
 	document.getElementById("aug").innerHTML = daysBetween(aug,dNow);
 
-	var pure = new Date(2015,02,18);
+	var pure = new Date(2015,02,20);
 	document.getElementById("pure").innerHTML = daysBetween(dNow,pure);
 
 	var noCoffee = new Date(2015,02,4);
