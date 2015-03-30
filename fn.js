@@ -12,6 +12,8 @@ function main(){
 
 	var noCoffee = new Date(2015,02,4);
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow,noCoffee);
+	
+	document.getElementById("upd").innerHTML = "#2015.03.30 10.43.54";
 }
 
 
