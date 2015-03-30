@@ -2,7 +2,7 @@ function main(){
 	var dNow = new Date();
 	
 	var dBorn = new Date(1992,10,29);	
-	document.getElementById("dof").innerHTML = daysBetween(dNow, dBorn);
+	document.getElementById("dol").innerHTML = daysBetween(dNow, dBorn);
 
 	var aug = new Date(2017,07,01);
 	document.getElementById("aug").innerHTML = daysBetween(aug,dNow);
