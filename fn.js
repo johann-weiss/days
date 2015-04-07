@@ -1,5 +1,7 @@
 function main(){
 	var dNow = new Date();
+
+	document.getElementById("upd").innerHTML = "#2015.03.30 10.43.54";
 	
 	var dBorn = new Date(1992,10,29);	
 	document.getElementById("dol").innerHTML = daysBetween(dNow, dBorn);
@@ -13,7 +15,10 @@ function main(){
 	var noCoffee = new Date(2015,02,4);
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow,noCoffee);
 	
-	document.getElementById("upd").innerHTML = "#2015.03.30 10.43.54";
+	var nali = new Date(2015,04,15);
+	document.getElementById("nali").innerHTML = daysBetween(nali,dNow);
+
+	
 }
 
 
