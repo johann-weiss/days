@@ -15,11 +15,16 @@ function main(){
 	var self_puring = new Date(2015,04,12);
 	document.getElementById("self_puring").innerHTML = daysBetween(dNow,self_puring);
 
-	var noCoffee = new Date(2015,02,4);
+	var noCoffee = new Date(2015,02,04);
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow,noCoffee);
 	
 	var anapana = new Date(2015,04,11);
 	document.getElementById("anapana").innerHTML = daysBetween(dNow,anapana);
+
+	var lwo = new Date(2014,11,01);
+	document.getElementById("lwo").innerHTML = daysBetween(dNow,lwo);
+
+	document.getElementById("lwo_s").innerHTML = daysBetween(dNow, dBorn) - daysBetween(dNow,lwo);
 
 	
 }
