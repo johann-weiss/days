@@ -1,7 +1,7 @@
 function main(){
 	var dNow = new Date();
 
-	document.getElementById("upd").innerHTML = "#2015.05.11 10.19.20";
+	document.getElementById("upd").innerHTML = "#2015.05.12 09.42.53";
 	
 	var dBorn = new Date(1992,10,29);	
 	document.getElementById("dol").innerHTML = daysBetween(dNow, dBorn);
