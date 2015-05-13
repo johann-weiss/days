@@ -13,7 +13,7 @@ function main(){
 	document.getElementById("pure").innerHTML = daysBetween(dNow,pure);
 
 	var self_puring = new Date(2015,04,12);
-	document.getElementById("self_puring").innerHTML = 0;
+	document.getElementById("self_puring").innerHTML = '0';
 	// daysBetween(dNow,self_puring);
 
 	var noCoffee = new Date(2015,02,04);
