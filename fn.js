@@ -12,9 +12,9 @@ function main(){
 	var pure = new Date(2015,04,14);
 	document.getElementById("pure").innerHTML = daysBetween(dNow,pure);
 
-	var self_puring = 0;
-	// new Date(2015,04,12);
-	document.getElementById("self_puring").innerHTML = daysBetween(dNow,self_puring);
+	var self_puring = new Date(2015,04,12);
+	document.getElementById("self_puring").innerHTML = 0;
+	// daysBetween(dNow,self_puring);
 
 	var noCoffee = new Date(2015,02,04);
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow,noCoffee);
