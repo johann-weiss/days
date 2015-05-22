@@ -1,7 +1,7 @@
 function main(){
 	var dNow = new Date();
 
-	document.getElementById("upd").innerHTML = "#2015.05.21 14.58.50";
+	document.getElementById("upd").innerHTML = "#2015.05.22 10.59.32";
 	
 	var dBorn = new Date(1992,10,29);	
 	document.getElementById("dol").innerHTML = daysBetween(dNow, dBorn);
@@ -9,7 +9,7 @@ function main(){
 	var aug = new Date(2017,07,01);
 	document.getElementById("aug").innerHTML = daysBetween(aug,dNow);
 
-	var pure = new Date(2015,04,22);
+	var pure = new Date(2015,04,23);
 	document.getElementById("pure").innerHTML = daysBetween(dNow,pure);
 
 	var self_puring = new Date(2015,04,12);
