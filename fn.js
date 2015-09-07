@@ -1,7 +1,7 @@
 function main(){
 	var dNow = new Date();
 
-	document.getElementById("upd").innerHTML = "#2015.06.03 13.56.08";
+	document.getElementById("upd").innerHTML = "##07.09.2015 08:50:42";
 	
 	var dayMine = new Date(1992,10,29);	
 	document.getElementById("dayMine").innerHTML = daysBetween(dNow, dayMine);
@@ -12,32 +12,17 @@ function main(){
 	var aug = new Date(2017,07,01);
 	document.getElementById("aug").innerHTML = daysBetween(aug,dNow);
 
+	var noCoffeeYear = new Date(2016,08,07);
+	var noCoffee = new Date(2015,08,07);
+	document.getElementById("noCoffeeYear").innerHTML = daysBetween(noCoffeeYear, dNow);
+	document.getElementById("noCoffee").innerHTML = daysBetween(dNow, noCoffee);
 
-/*
-	var pure = new Date(2015,04,23);
-	document.getElementById("pure").innerHTML = daysBetween(dNow,pure);
-
-	var self_puring = new Date(2015,04,12);
-	document.getElementById("self_puring").innerHTML = '0';
-	// daysBetween(dNow,self_puring);
-
-	var noJobTea = new Date(2015,04,20);
-	document.getElementById("noJobTea").innerHTML = daysBetween(dNow,noJobTea);
-*/
-
-	var noCoffee = new Date(2015,02,04);
-	document.getElementById("noCoffee").innerHTML = daysBetween(dNow,noCoffee);
-
+	var noSnickersAndOtherShitOnlyFruits = new Date(2015,09,07);
+	document.getElementById("noSnickersAndOtherShitOnlyFruits").innerHTML = daysBetween(noSnickersAndOtherShitOnlyFruits, dNow);
 	
-/*	
-	var anapana = new Date(2015,04,11);
-	document.getElementById("anapana").innerHTML = daysBetween(dNow,anapana);
-*/
 	var lwo = new Date(2014,11,01);
 	document.getElementById("lwo").innerHTML = daysBetween(dNow,lwo);
-
 	document.getElementById("lwo_s").innerHTML = daysBetween(dNow, dayMine) - daysBetween(dNow,lwo);
-
 	
 }
 
