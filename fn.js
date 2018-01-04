@@ -1,7 +1,5 @@
 function main(){
 	var dNow = new Date();
-
-	document.getElementById("upd").innerHTML = "##07.09.2015 08:50:42";
 	
 	var dayMine = new Date(1992,10,29);	
 	document.getElementById("dayMine").innerHTML = daysBetween(dNow, dayMine);
