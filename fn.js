@@ -12,6 +12,9 @@ function main(){
 	var noCoffee = new Date(2018,0,02);	
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow, noCoffee);
 	
+	var noSPHAO = new Date(2017,11,30);	
+	document.getElementById("noSPHAO").innerHTML = daysBetween(dNow, noSPHAO);
+	
 }
 
 
