@@ -13,6 +13,9 @@ function main(){
 	var noSPHAO = new Date(2017,11,30);	
 	document.getElementById("noSPHAO").innerHTML = daysBetween(dNow, noSPHAO);
 	
+	var six = new Date(2018,0,6);
+	document.getElementById("six").innerHTML = daysBetween(dNow, six);
+	
 }
 
 
