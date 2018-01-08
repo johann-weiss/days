@@ -16,6 +16,12 @@ function main(){
 	var six = new Date(2018,0,6);
 	document.getElementById("six").innerHTML = daysBetween(dNow, six);
 	
+	var morngym = new Date(2018,0,8);
+	document.getElementById("morngym").innerHTML = daysBetween(dNow, morngym);
+	
+	var S000 = new Date(2018,0,7);
+	document.getElementById("S000").innerHTML = daysBetween(dNow, S000);
+
 }
 
 
