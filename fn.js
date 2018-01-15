@@ -10,7 +10,7 @@ function main(){
 	var noCoffee = new Date(2018,0,02);	
 	document.getElementById("noCoffee").innerHTML = daysBetween(dNow, noCoffee);
 	
-	var noAFSA = new Date(2017,11,30);	
+	var noAFSA = new Date(2018,0,16);	
 	document.getElementById("noAFSA").innerHTML = daysBetween(dNow, noAFSA);
 	
 	var six = new Date(2018,0,16);
