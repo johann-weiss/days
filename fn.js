@@ -25,7 +25,7 @@ function main(){
 
 	
 	
-	document.getElementById("noCoffeePromile").innerHTML = (noCoffeeDay/dayMine).toFixed(4);
+	document.getElementById("noCoffeePromile").innerHTML = (noCoffeeDay * 1000 / dayMine).toFixed(4);
 	
 	
 }
