@@ -8,7 +8,8 @@ function main(){
 	document.getElementById("dayI").innerHTML = daysBetween(dNow, dayI);
 
 	var noCoffee = new Date(2018,0,02);	
-	document.getElementById("noCoffee").innerHTML = daysBetween(dNow, noCoffee);
+	var noCoffeeDay = daysBetween(dNow, noCoffee);
+	document.getElementById("noCoffee").innerHTML = noCoffeeDay;
 	
 	var noAFSA = new Date(2018,0,18);	
 	document.getElementById("noAFSA").innerHTML = daysBetween(dNow, noAFSA);
@@ -24,7 +25,7 @@ function main(){
 
 	
 	
-	document.getElementById("noCoffeePromile").innerHTML = noCoffee/dayMine;
+	document.getElementById("noCoffeePromile").innerHTML = (noCoffeeDay/dayMine).toFixed(4);
 	
 	
 }
