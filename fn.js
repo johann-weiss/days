@@ -22,6 +22,11 @@ function main(){
 	// var S000 = new Date(2018,0,7);
 	// document.getElementById("S000").innerHTML = daysBetween(dNow, S000);
 
+	
+	
+	document.getElementById("noCoffeePromile").innerHTML = noCoffee/dayMine*1000;
+	
+	
 }
 
 
