@@ -12,11 +12,11 @@ function main(){
 	var noCoffeeCount = daysBetween(dNow, noCoffee);
 	document.getElementById("noCoffee").innerHTML = noCoffeeCount;
 	
-	var noAFSA = new Date(2018,0,23);	
-	document.getElementById("noAFSA").innerHTML = daysBetween(dNow, noAFSA);
+	var D0001 = new Date(2018,0,27);	
+	document.getElementById("∆0001").innerHTML = daysBetween(dNow, D0001);
 	
-	// var six = new Date(2018,0,16);
-	// document.getElementById("six").innerHTML = daysBetween(dNow, six);
+	var D0002 = new Date(2018,0,30);
+	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
 	
 	// var morngym = new Date(2018,0,16);
 	// document.getElementById("morngym").innerHTML = daysBetween(dNow, morngym);
@@ -26,7 +26,7 @@ function main(){
 
 	
 	
-	document.getElementById("noCoffeePromile").innerHTML = (noCoffeeCount * 1000 / dayMineCount).toFixed(4);
+	document.getElementById("noCoffeePromile").innerHTML = (noCoffeeCount * 1000 / dayMineCount).toFixed(2);
 	
 	
 }
