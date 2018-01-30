@@ -11,12 +11,16 @@ function main(){
 	var noCoffee = new Date(2018,0,02);	
 	var noCoffeeCount = daysBetween(dNow, noCoffee);
 	document.getElementById("noCoffee").innerHTML = noCoffeeCount;
+	document.getElementById("noCoffeeWeeks").innerHTML = Math.floor(noCoffeeCount / 7);
 	
 	var D0001 = new Date(2018,0,27);	
 	document.getElementById("∆0001").innerHTML = daysBetween(dNow, D0001);
 	
 	var D0002 = new Date(2018,0,30);
 	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
+	
+	
+	
 	
 	// var morngym = new Date(2018,0,16);
 	// document.getElementById("morngym").innerHTML = daysBetween(dNow, morngym);
