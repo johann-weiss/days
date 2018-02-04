@@ -13,7 +13,7 @@ function main(){
 	document.getElementById("noCoffee").innerHTML = noCoffeeCount;
 	document.getElementById("noCoffeeWeeks").innerHTML = Math.floor(noCoffeeCount / 7);
 	
-	var D0001 = new Date(2018,1,3);	
+	var D0001 = new Date(2018,1,4);	
 	document.getElementById("∆0001").innerHTML = daysBetween(dNow, D0001);
 	
 // 	var D0002 = new Date(2018,0,30);
