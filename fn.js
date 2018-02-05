@@ -16,8 +16,8 @@ function main(){
 	var D0001 = new Date(2018,1,4);	
 	document.getElementById("∆0001").innerHTML = daysBetween(dNow, D0001);
 	
-// 	var D0002 = new Date(2018,0,30);
-// 	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
+	var D0002 = new Date(2018,1,5);
+	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
 	
 	
 	
