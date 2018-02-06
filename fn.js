@@ -20,7 +20,7 @@ function main(){
 	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
 	
 	var D0002R0001 = new Date(2018,1,6);
-	var D0002R0001Days = daysBetween(dNow, noCoffee);
+	var D0002R0001Days = daysBetween(dNow, D0002R0001);
 	document.getElementById("Δ0000R0001:days").innerHTML = D0002R0001Days;
 	document.getElementById("Δ0000R0000:promile:done").innerHTML = (D0002R0001Days * 1000 / dayMineCount).toFixed(2);
 	document.getElementById("Δ0000R0000:promile:all").innerHTML = 6.478781989.toFixed(2);
