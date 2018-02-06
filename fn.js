@@ -19,8 +19,11 @@ function main(){
 	var D0002 = new Date(2018,1,5);
 	document.getElementById("∆0002").innerHTML = daysBetween(dNow, D0002);
 	
-	
-	
+	var D0002R0001 = new Date(2018,1,6);
+	var D0002R0001Days = daysBetween(dNow, noCoffee);
+	document.getElementById("Δ0000R0001:days").innerHTML = D0002R0001Days;
+	document.getElementById("Δ0000R0000:promile:done").innerHTML = (D0002R0001Days * 1000 / dayMineCount).toFixed(2);
+	document.getElementById("Δ0000R0000:promile:all").innerHTML = 6.478781989.toFixed(2);
 	
 	// var morngym = new Date(2018,0,16);
 	// document.getElementById("morngym").innerHTML = daysBetween(dNow, morngym);
